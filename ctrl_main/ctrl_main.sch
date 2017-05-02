@@ -45,519 +45,620 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_01X04 P5
+L CONN_01X04 P4
 U 1 1 59082A0D
-P 3000 2500
-F 0 "P5" H 3000 2750 50  0000 C CNN
-F 1 "CONN_01X04" V 3100 2500 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch1.27mm" H 3000 2500 50  0001 C CNN
-F 3 "" H 3000 2500 50  0000 C CNN
-	1    3000 2500
+P 5150 1500
+F 0 "P4" H 5150 1750 50  0000 C CNN
+F 1 "JS_H" V 5250 1500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 5150 1500 50  0001 C CNN
+F 3 "" H 5150 1500 50  0000 C CNN
+	1    5150 1500
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_01X04 P6
+L CONN_01X04 P5
 U 1 1 59082BA5
-P 3000 3100
-F 0 "P6" H 3000 3350 50  0000 C CNN
-F 1 "CONN_01X04" V 3100 3100 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch1.27mm" H 3000 3100 50  0001 C CNN
-F 3 "" H 3000 3100 50  0000 C CNN
-	1    3000 3100
+P 5150 2100
+F 0 "P5" H 5150 2350 50  0000 C CNN
+F 1 "JS_V" V 5250 2100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 5150 2100 50  0001 C CNN
+F 3 "" H 5150 2100 50  0000 C CNN
+	1    5150 2100
 	-1   0    0    1   
 $EndComp
-Text GLabel 1400 850  0    60   Input ~ 0
+Text GLabel 1550 1050 0    60   Input ~ 0
 SVH11V1
-Text GLabel 1400 950  0    60   Input ~ 0
+Text GLabel 1550 1150 0    60   Input ~ 0
 SVHGND
-Text GLabel 1400 1350 0    60   Input ~ 0
+Text GLabel 1550 1550 0    60   Input ~ 0
 SVV11V1
-Text GLabel 1400 1450 0    60   Input ~ 0
+Text GLabel 1550 1650 0    60   Input ~ 0
 SVVGND
-Text GLabel 1400 1850 0    60   Input ~ 0
-CTRL7V4
-Text GLabel 1400 1950 0    60   Input ~ 0
+Text GLabel 1550 2050 0    60   Input ~ 0
+Vin
+Text GLabel 1550 2150 0    60   Input ~ 0
 CTRLGND
-Text GLabel 1150 3250 0    60   Input ~ 0
+Text GLabel 3050 1400 0    60   Input ~ 0
 SVHGND
-Text GLabel 1150 3450 0    60   Input ~ 0
+Text GLabel 3050 1600 0    60   Input ~ 0
 SVVGND
-Text GLabel 1150 3650 0    60   Input ~ 0
+Text GLabel 3050 1800 0    60   Input ~ 0
 CTRLGND
 $Comp
 L GND #PWR01
 U 1 1 5908355A
-P 1350 3750
-F 0 "#PWR01" H 1350 3500 50  0001 C CNN
-F 1 "GND" H 1350 3600 50  0000 C CNN
-F 2 "" H 1350 3750 50  0000 C CNN
-F 3 "" H 1350 3750 50  0000 C CNN
-	1    1350 3750
+P 3250 1900
+F 0 "#PWR01" H 3250 1650 50  0001 C CNN
+F 1 "GND" H 3250 1750 50  0000 C CNN
+F 2 "" H 3250 1900 50  0000 C CNN
+F 3 "" H 3250 1900 50  0000 C CNN
+	1    3250 1900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1150 3250 1350 3250
-Wire Wire Line
-	1350 3250 1350 3750
-Wire Wire Line
-	1150 3450 1350 3450
-Connection ~ 1350 3450
-Wire Wire Line
-	1150 3650 1350 3650
-Connection ~ 1350 3650
 $Comp
-L CONN_01X03 P11
+L CONN_01X03 P7
 U 1 1 5908363B
-P 9300 1850
-F 0 "P11" H 9300 2050 50  0000 C CNN
-F 1 "CONN_01X03" V 9400 1850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch1.27mm" H 9300 1850 50  0001 C CNN
-F 3 "" H 9300 1850 50  0000 C CNN
-	1    9300 1850
-	1    0    0    -1  
+P 7550 4450
+F 0 "P7" H 7550 4650 50  0000 C CNN
+F 1 "SVH" V 7650 4450 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 7550 4450 50  0001 C CNN
+F 3 "" H 7550 4450 50  0000 C CNN
+	1    7550 4450
+	0    1    1    0   
 $EndComp
 $Comp
-L CONN_01X03 P12
+L CONN_01X03 P8
 U 1 1 59083798
-P 9300 3550
-F 0 "P12" H 9300 3750 50  0000 C CNN
-F 1 "CONN_01X03" V 9400 3550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch1.27mm" H 9300 3550 50  0001 C CNN
-F 3 "" H 9300 3550 50  0000 C CNN
-	1    9300 3550
-	1    0    0    -1  
+P 9450 4450
+F 0 "P8" H 9450 4650 50  0000 C CNN
+F 1 "SVV" V 9550 4450 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 9450 4450 50  0001 C CNN
+F 3 "" H 9450 4450 50  0000 C CNN
+	1    9450 4450
+	0    -1   1    0   
 $EndComp
-Text GLabel 9100 1850 0    60   Input ~ 0
+Text GLabel 7550 4250 1    60   Input ~ 0
 SVH11V1
-Text GLabel 9100 3550 0    60   Input ~ 0
+Text GLabel 9450 4250 1    60   Input ~ 0
 SVV11V1
 $Comp
 L GND #PWR02
-U 1 1 59083B65
-P 9100 3650
-F 0 "#PWR02" H 9100 3400 50  0001 C CNN
-F 1 "GND" H 9100 3500 50  0000 C CNN
-F 2 "" H 9100 3650 50  0000 C CNN
-F 3 "" H 9100 3650 50  0000 C CNN
-	1    9100 3650
+U 1 1 59083FA2
+P 5350 1650
+F 0 "#PWR02" H 5350 1400 50  0001 C CNN
+F 1 "GND" H 5350 1500 50  0000 C CNN
+F 2 "" H 5350 1650 50  0000 C CNN
+F 3 "" H 5350 1650 50  0000 C CNN
+	1    5350 1650
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR03
-U 1 1 59083C40
-P 9100 1950
-F 0 "#PWR03" H 9100 1700 50  0001 C CNN
-F 1 "GND" H 9100 1800 50  0000 C CNN
-F 2 "" H 9100 1950 50  0000 C CNN
-F 3 "" H 9100 1950 50  0000 C CNN
-	1    9100 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR04
-U 1 1 59083FA2
-P 3200 2650
-F 0 "#PWR04" H 3200 2400 50  0001 C CNN
-F 1 "GND" H 3200 2500 50  0000 C CNN
-F 2 "" H 3200 2650 50  0000 C CNN
-F 3 "" H 3200 2650 50  0000 C CNN
-	1    3200 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR05
 U 1 1 590840B0
-P 3200 3250
-F 0 "#PWR05" H 3200 3000 50  0001 C CNN
-F 1 "GND" H 3200 3100 50  0000 C CNN
-F 2 "" H 3200 3250 50  0000 C CNN
-F 3 "" H 3200 3250 50  0000 C CNN
-	1    3200 3250
+P 5350 2250
+F 0 "#PWR03" H 5350 2000 50  0001 C CNN
+F 1 "GND" H 5350 2100 50  0000 C CNN
+F 2 "" H 5350 2250 50  0000 C CNN
+F 3 "" H 5350 2250 50  0000 C CNN
+	1    5350 2250
 	1    0    0    -1  
 $EndComp
-Text GLabel 3200 2450 2    60   Input ~ 0
+Text GLabel 5350 1450 2    60   Input ~ 0
 5V
-Text GLabel 3200 3050 2    60   Input ~ 0
+Text GLabel 5350 2050 2    60   Input ~ 0
 5V
-$Comp
-L CONN_01X04 P7
-U 1 1 5908457C
-P 4650 2500
-F 0 "P7" H 4650 2750 50  0000 C CNN
-F 1 "CONN_01X04" V 4750 2500 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch1.27mm" H 4650 2500 50  0001 C CNN
-F 3 "" H 4650 2500 50  0000 C CNN
-	1    4650 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X04 P4
-U 1 1 590845E7
-P 1600 2550
-F 0 "P4" H 1600 2800 50  0000 C CNN
-F 1 "CONN_01X04" V 1700 2550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch1.27mm" H 1600 2550 50  0001 C CNN
-F 3 "" H 1600 2550 50  0000 C CNN
-	1    1600 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X06 P9
-U 1 1 590846DC
-P 5650 2250
-F 0 "P9" H 5650 2600 50  0000 C CNN
-F 1 "CONN_01X06" V 5750 2250 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch1.27mm" H 5650 2250 50  0001 C CNN
-F 3 "" H 5650 2250 50  0000 C CNN
-	1    5650 2250
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3200 2350 4450 2350
-Wire Wire Line
-	3200 2550 3650 2550
-Wire Wire Line
-	3200 2950 3750 2950
-Wire Wire Line
-	3200 3150 3850 3150
-$Comp
-L SN74HC125N IC1
-U 1 1 59083786
-P 7150 2100
-F 0 "IC1" H 7650 2250 50  0000 C CNN
-F 1 "SN74HC125N" H 7650 1350 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm" H 7650 1250 50  0001 C CNN
-F 3 "" H 7650 1150 50  0001 C CNN
-F 4 "QUADRUPLE BUS BUFFER GATES" H 7650 1050 50  0001 C CNN "Description"
-F 5 "Texas Instruments" H 7650 950 50  0001 C CNN "Manufacturer_Name"
-F 6 "SN74HC125N" H 7650 850 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "RS" H 7650 750 50  0001 C CNN "Supplier_Name"
-F 8 "" H 7650 650 50  0001 C CNN "RS Part Number"
-F 9 "" H 7650 550 50  0001 C CNN "Height"
-	1    7150 2100
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	5850 2000 7350 2000
-Wire Wire Line
-	7350 2000 7350 2100
-Wire Wire Line
-	5850 2100 7550 2100
-Wire Wire Line
-	5850 2200 6750 2200
-Wire Wire Line
-	6750 2200 6750 3150
-Wire Wire Line
-	6750 3150 7750 3150
-Wire Wire Line
-	7750 3150 7750 3100
-Wire Wire Line
-	5850 2300 6650 2300
-Wire Wire Line
-	6650 2300 6650 3250
-Wire Wire Line
-	6650 3250 7350 3250
-Wire Wire Line
-	7350 3250 7350 3100
-$Comp
-L CONN_01X02 P8
-U 1 1 59083EAC
-P 5250 1300
-F 0 "P8" H 5250 1450 50  0000 C CNN
-F 1 "CONN_01X02" V 5350 1300 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch1.27mm" H 5250 1300 50  0001 C CNN
-F 3 "" H 5250 1300 50  0000 C CNN
-	1    5250 1300
-	-1   0    0    -1  
-$EndComp
 $Comp
 L Q_NPN_ECB Q1
 U 1 1 59083F31
-P 6950 1250
-F 0 "Q1" H 7250 1300 50  0000 R CNN
-F 1 "Q_NPN_ECB" H 7550 1200 50  0000 R CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Rugged" H 7150 1350 50  0001 C CNN
-F 3 "" H 6950 1250 50  0000 C CNN
-	1    6950 1250
+P 7600 1600
+F 0 "Q1" H 7900 1650 50  0000 R CNN
+F 1 "Q_NPN_ECB" H 8200 1550 50  0000 R CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Rugged" H 7800 1700 50  0001 C CNN
+F 3 "" H 7600 1600 50  0000 C CNN
+	1    7600 1600
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R1
 U 1 1 59084AE6
-P 6550 1250
-F 0 "R1" V 6630 1250 50  0000 C CNN
-F 1 "R" V 6550 1250 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 6480 1250 50  0001 C CNN
-F 3 "" H 6550 1250 50  0000 C CNN
-	1    6550 1250
+P 7200 1600
+F 0 "R1" V 7280 1600 50  0000 C CNN
+F 1 "R" V 7200 1600 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 7130 1600 50  0001 C CNN
+F 3 "" H 7200 1600 50  0000 C CNN
+	1    7200 1600
 	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7250 2100 7250 1750
-Wire Wire Line
-	7250 1750 9100 1750
-Wire Wire Line
-	7650 2100 7650 1750
-Connection ~ 7650 1750
-Wire Wire Line
-	7450 3450 9100 3450
-Wire Wire Line
-	7650 3450 7650 3100
-Wire Wire Line
-	7450 3100 7450 3450
-Connection ~ 7650 3450
-Wire Wire Line
-	5450 1250 6400 1250
-Wire Wire Line
-	6700 1250 6750 1250
-$Comp
-L R R3
-U 1 1 59085847
-P 7050 850
-F 0 "R3" V 7130 850 50  0000 C CNN
-F 1 "R" V 7050 850 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 6980 850 50  0001 C CNN
-F 3 "" H 7050 850 50  0000 C CNN
-	1    7050 850 
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7050 1000 7050 1050
-Wire Wire Line
-	7050 1050 7450 1050
-Wire Wire Line
-	7450 1050 7450 2100
-Connection ~ 7050 1050
-Wire Wire Line
-	6250 1250 6250 1750
-Wire Wire Line
-	6250 1750 7150 1750
-Wire Wire Line
-	7150 1750 7150 2100
-Connection ~ 6250 1250
-$Comp
-L Q_NPN_ECB Q2
-U 1 1 59086863
-P 7050 4650
-F 0 "Q2" H 7350 4700 50  0000 R CNN
-F 1 "Q_NPN_ECB" H 7650 4600 50  0000 R CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Rugged" H 7250 4750 50  0001 C CNN
-F 3 "" H 7050 4650 50  0000 C CNN
-	1    7050 4650
-	1    0    0    -1  
 $EndComp
 $Comp
 L R R2
-U 1 1 59086869
-P 6650 4650
-F 0 "R2" V 6730 4650 50  0000 C CNN
-F 1 "R" V 6650 4650 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 6580 4650 50  0001 C CNN
-F 3 "" H 6650 4650 50  0000 C CNN
-	1    6650 4650
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	5450 4650 6500 4650
-Wire Wire Line
-	6800 4650 6850 4650
-$Comp
-L R R4
-U 1 1 59086871
-P 7150 4250
-F 0 "R4" V 7230 4250 50  0000 C CNN
-F 1 "R" V 7150 4250 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 7080 4250 50  0001 C CNN
-F 3 "" H 7150 4250 50  0000 C CNN
-	1    7150 4250
+U 1 1 59085847
+P 7700 1200
+F 0 "R2" V 7780 1200 50  0000 C CNN
+F 1 "R" V 7700 1200 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 7630 1200 50  0001 C CNN
+F 3 "" H 7700 1200 50  0000 C CNN
+	1    7700 1200
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	7150 4400 7150 4450
-Connection ~ 7150 4450
-Wire Wire Line
-	5450 1350 5450 4650
-Wire Wire Line
-	7150 4450 7550 4450
-Wire Wire Line
-	7550 4450 7550 3100
-Wire Wire Line
-	6350 4650 6350 3700
-Wire Wire Line
-	6350 3700 7250 3700
-Wire Wire Line
-	7250 3700 7250 3100
-Connection ~ 6350 4650
-Text GLabel 7150 4100 1    60   Input ~ 0
+$Comp
+L Q_NPN_ECB Q2
+U 1 1 59086863
+P 9400 1600
+F 0 "Q2" H 9700 1650 50  0000 R CNN
+F 1 "Q_NPN_ECB" H 10000 1550 50  0000 R CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Rugged" H 9600 1700 50  0001 C CNN
+F 3 "" H 9400 1600 50  0000 C CNN
+	1    9400 1600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 59086869
+P 9850 1600
+F 0 "R4" V 9930 1600 50  0000 C CNN
+F 1 "R" V 9850 1600 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 9780 1600 50  0001 C CNN
+F 3 "" H 9850 1600 50  0000 C CNN
+	1    9850 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R3
+U 1 1 59086871
+P 9300 1200
+F 0 "R3" V 9380 1200 50  0000 C CNN
+F 1 "R" V 9300 1200 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 9230 1200 50  0001 C CNN
+F 3 "" H 9300 1200 50  0000 C CNN
+	1    9300 1200
+	1    0    0    1   
+$EndComp
+Text GLabel 9300 1050 1    60   Input ~ 0
 5V
-Text GLabel 7050 700  1    60   Input ~ 0
+Text GLabel 7700 1050 1    60   Input ~ 0
 5V
+$Comp
+L GND #PWR04
+U 1 1 590878F5
+P 7700 1800
+F 0 "#PWR04" H 7700 1550 50  0001 C CNN
+F 1 "GND" H 7700 1650 50  0000 C CNN
+F 2 "" H 7700 1800 50  0000 C CNN
+F 3 "" H 7700 1800 50  0000 C CNN
+	1    7700 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 59087B76
+P 9300 1800
+F 0 "#PWR05" H 9300 1550 50  0001 C CNN
+F 1 "GND" H 9300 1650 50  0000 C CNN
+F 2 "" H 9300 1800 50  0000 C CNN
+F 3 "" H 9300 1800 50  0000 C CNN
+	1    9300 1800
+	-1   0    0    -1  
+$EndComp
 $Comp
 L GND #PWR06
-U 1 1 590878F5
-P 7050 1450
-F 0 "#PWR06" H 7050 1200 50  0001 C CNN
-F 1 "GND" H 7050 1300 50  0000 C CNN
-F 2 "" H 7050 1450 50  0000 C CNN
-F 3 "" H 7050 1450 50  0000 C CNN
-	1    7050 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR07
-U 1 1 59087B76
-P 7150 4850
-F 0 "#PWR07" H 7150 4600 50  0001 C CNN
-F 1 "GND" H 7150 4700 50  0000 C CNN
-F 2 "" H 7150 4850 50  0000 C CNN
-F 3 "" H 7150 4850 50  0000 C CNN
-	1    7150 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR08
-U 1 1 59088214
-P 8000 2100
-F 0 "#PWR08" H 8000 1850 50  0001 C CNN
-F 1 "GND" H 8000 1950 50  0000 C CNN
-F 2 "" H 8000 2100 50  0000 C CNN
-F 3 "" H 8000 2100 50  0000 C CNN
-	1    8000 2100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7750 2100 7750 2000
-Wire Wire Line
-	7750 2000 8000 2000
-Wire Wire Line
-	8000 2000 8000 2100
-Text GLabel 7150 3450 3    60   Input ~ 0
-5V
-Wire Wire Line
-	7150 3100 7150 3450
-Text GLabel 1200 2700 0    60   Input ~ 0
-CTRL7V4
-$Comp
-L GND #PWR09
-U 1 1 5908A37D
-P 1350 2850
-F 0 "#PWR09" H 1350 2600 50  0001 C CNN
-F 1 "GND" H 1350 2700 50  0000 C CNN
-F 2 "" H 1350 2850 50  0000 C CNN
-F 3 "" H 1350 2850 50  0000 C CNN
-	1    1350 2850
-	1    0    0    -1  
-$EndComp
-Text GLabel 1200 2400 0    60   Input ~ 0
-5V
-Wire Wire Line
-	1400 2400 1200 2400
-Wire Wire Line
-	1400 2700 1200 2700
-Wire Wire Line
-	1400 2500 1350 2500
-Wire Wire Line
-	1350 2500 1350 2850
-Wire Wire Line
-	1400 2600 1350 2600
-Connection ~ 1350 2600
-Wire Wire Line
-	3650 2450 4450 2450
-Wire Wire Line
-	3650 2550 3650 2450
-Wire Wire Line
-	3850 3150 3850 2650
-Wire Wire Line
-	3750 2950 3750 2550
-Wire Wire Line
-	3750 2550 4450 2550
-Wire Wire Line
-	3850 2650 4450 2650
-$Comp
-L GND #PWR010
 U 1 1 5908D7BD
-P 6550 5150
-F 0 "#PWR010" H 6550 4900 50  0001 C CNN
-F 1 "GND" H 6550 5000 50  0000 C CNN
-F 2 "" H 6550 5150 50  0000 C CNN
-F 3 "" H 6550 5150 50  0000 C CNN
-	1    6550 5150
+P 5550 3850
+F 0 "#PWR06" H 5550 3600 50  0001 C CNN
+F 1 "GND" H 5550 3700 50  0000 C CNN
+F 2 "" H 5550 3850 50  0000 C CNN
+F 3 "" H 5550 3850 50  0000 C CNN
+	1    5550 3850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6350 5150 6350 5050
-Wire Wire Line
-	6350 5050 6550 5050
-Wire Wire Line
-	6550 5050 6550 5150
-Wire Wire Line
-	6250 5150 6250 2400
-Wire Wire Line
-	6250 2400 5850 2400
 $Comp
 L B2B-XH-A(LF)(SN) J1
 U 1 1 5908E875
-P 1400 850
-F 0 "J1" H 1750 1000 50  0000 C CNN
-F 1 "B2B-XH-A(LF)(SN)" H 1750 600 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch1.27mm" H 1750 500 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf" H 1750 400 50  0001 C CNN
-F 4 "Through hole shrouded header, XH series, 2 circuits" H 1750 300 50  0001 C CNN "Description"
-F 5 "JST Sales America Inc." H 1750 200 50  0001 C CNN "Manufacturer_Name"
-F 6 "B2B-XH-A(LF)(SN)" H 1750 100 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "RS" H 1750 0   50  0001 C CNN "Supplier_Name"
-F 8 "" H 1750 -100 50  0001 C CNN "RS Part Number"
-F 9 "7" H 1750 -200 50  0001 C CNN "Height"
-	1    1400 850 
+P 1550 1050
+F 0 "J1" H 1900 1200 50  0000 C CNN
+F 1 "B2B-XH-A(LF)(SN)" H 1900 800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1900 700 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf" H 1900 600 50  0001 C CNN
+F 4 "Through hole shrouded header, XH series, 2 circuits" H 1900 500 50  0001 C CNN "Description"
+F 5 "JST Sales America Inc." H 1900 400 50  0001 C CNN "Manufacturer_Name"
+F 6 "B2B-XH-A(LF)(SN)" H 1900 300 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "RS" H 1900 200 50  0001 C CNN "Supplier_Name"
+F 8 "" H 1900 100 50  0001 C CNN "RS Part Number"
+F 9 "7" H 1900 0   50  0001 C CNN "Height"
+	1    1550 1050
 	1    0    0    -1  
 $EndComp
 $Comp
 L B2B-XH-A(LF)(SN) J2
 U 1 1 5908EA1E
-P 1400 1350
-F 0 "J2" H 1750 1500 50  0000 C CNN
-F 1 "B2B-XH-A(LF)(SN)" H 1750 1100 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch1.27mm" H 1750 1000 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf" H 1750 900 50  0001 C CNN
-F 4 "Through hole shrouded header, XH series, 2 circuits" H 1750 800 50  0001 C CNN "Description"
-F 5 "JST Sales America Inc." H 1750 700 50  0001 C CNN "Manufacturer_Name"
-F 6 "B2B-XH-A(LF)(SN)" H 1750 600 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "RS" H 1750 500 50  0001 C CNN "Supplier_Name"
-F 8 "" H 1750 400 50  0001 C CNN "RS Part Number"
-F 9 "7" H 1750 300 50  0001 C CNN "Height"
-	1    1400 1350
+P 1550 1550
+F 0 "J2" H 1900 1700 50  0000 C CNN
+F 1 "B2B-XH-A(LF)(SN)" H 1900 1300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1900 1200 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf" H 1900 1100 50  0001 C CNN
+F 4 "Through hole shrouded header, XH series, 2 circuits" H 1900 1000 50  0001 C CNN "Description"
+F 5 "JST Sales America Inc." H 1900 900 50  0001 C CNN "Manufacturer_Name"
+F 6 "B2B-XH-A(LF)(SN)" H 1900 800 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "RS" H 1900 700 50  0001 C CNN "Supplier_Name"
+F 8 "" H 1900 600 50  0001 C CNN "RS Part Number"
+F 9 "7" H 1900 500 50  0001 C CNN "Height"
+	1    1550 1550
 	1    0    0    -1  
 $EndComp
 $Comp
 L B2B-XH-A(LF)(SN) J3
 U 1 1 5908EA84
-P 1400 1850
-F 0 "J3" H 1750 2000 50  0000 C CNN
-F 1 "B2B-XH-A(LF)(SN)" H 1750 1600 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch1.27mm" H 1750 1500 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf" H 1750 1400 50  0001 C CNN
-F 4 "Through hole shrouded header, XH series, 2 circuits" H 1750 1300 50  0001 C CNN "Description"
-F 5 "JST Sales America Inc." H 1750 1200 50  0001 C CNN "Manufacturer_Name"
-F 6 "B2B-XH-A(LF)(SN)" H 1750 1100 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "RS" H 1750 1000 50  0001 C CNN "Supplier_Name"
-F 8 "" H 1750 900 50  0001 C CNN "RS Part Number"
-F 9 "7" H 1750 800 50  0001 C CNN "Height"
-	1    1400 1850
+P 1550 2050
+F 0 "J3" H 1900 2200 50  0000 C CNN
+F 1 "B2B-XH-A(LF)(SN)" H 1900 1800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1900 1700 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf" H 1900 1600 50  0001 C CNN
+F 4 "Through hole shrouded header, XH series, 2 circuits" H 1900 1500 50  0001 C CNN "Description"
+F 5 "JST Sales America Inc." H 1900 1400 50  0001 C CNN "Manufacturer_Name"
+F 6 "B2B-XH-A(LF)(SN)" H 1900 1300 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "RS" H 1900 1200 50  0001 C CNN "Supplier_Name"
+F 8 "" H 1900 1100 50  0001 C CNN "RS Part Number"
+F 9 "7" H 1900 1000 50  0001 C CNN "Height"
+	1    1550 2050
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 P?
+L CONN_01X03 P6
 U 1 1 5909467D
-P 6250 5350
-F 0 "P?" H 6250 5550 50  0000 C CNN
-F 1 "CONN_01X03" V 6350 5350 50  0000 C CNN
-F 2 "" H 6250 5350 50  0000 C CNN
-F 3 "" H 6250 5350 50  0000 C CNN
-	1    6250 5350
+P 5250 4050
+F 0 "P6" H 5250 4250 50  0000 C CNN
+F 1 "SDC" V 5350 4050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5250 4050 50  0001 C CNN
+F 3 "" H 5250 4050 50  0000 C CNN
+	1    5250 4050
 	0    1    1    0   
 $EndComp
+$Comp
+L CONN_01X24 P1
+U 1 1 590871A1
+P 1100 5900
+F 0 "P1" H 1100 7150 50  0000 C CNN
+F 1 "ANALOG" V 1200 5900 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x24_Pitch2.54mm" H 1100 5900 50  0001 C CNN
+F 3 "" H 1100 5900 50  0000 C CNN
+	1    1100 5900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X08 P3
+U 1 1 590874EC
+P 2500 4750
+F 0 "P3" H 2500 5200 50  0000 C CNN
+F 1 "DIGITAL_H" V 2600 4750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 2500 4750 50  0001 C CNN
+F 3 "" H 2500 4750 50  0000 C CNN
+	1    2500 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X17 P2
+U 1 1 590876D1
+P 2450 6250
+F 0 "P2" H 2450 7150 50  0000 C CNN
+F 1 "DIGITAL_L" V 2550 6250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x17_Pitch2.54mm" H 2450 6250 50  0001 C CNN
+F 3 "" H 2450 6250 50  0000 C CNN
+	1    2450 6250
+	1    0    0    -1  
+$EndComp
+Text GLabel 2250 7050 0    60   Input ~ 0
+SCL
+Text GLabel 2250 6950 0    60   Input ~ 0
+SDA
+Text GLabel 2250 6850 0    60   Input ~ 0
+RX1
+Text GLabel 2250 6750 0    60   Input ~ 0
+TX1
+Text GLabel 2250 6650 0    60   Input ~ 0
+RX2
+Text GLabel 2250 6550 0    60   Input ~ 0
+TX2
+Text GLabel 2250 6450 0    60   Input ~ 0
+RX3
+Text GLabel 2250 6350 0    60   Input ~ 0
+TX3
+NoConn ~ 2250 6250
+Text GLabel 2250 6150 0    60   Input ~ 0
+RX0
+Text GLabel 2250 6050 0    60   Input ~ 0
+TX0
+Text GLabel 2250 5950 0    60   Input ~ 0
+D2
+Text GLabel 2250 5850 0    60   Input ~ 0
+D3
+Text GLabel 2250 5750 0    60   Input ~ 0
+D4
+Text GLabel 2250 5650 0    60   Input ~ 0
+D5
+Text GLabel 2250 5550 0    60   Input ~ 0
+D6
+Text GLabel 2250 5450 0    60   Input ~ 0
+D7
+Text GLabel 2300 5100 0    60   Input ~ 0
+D8
+Text GLabel 2300 5000 0    60   Input ~ 0
+D9
+Text GLabel 2300 4900 0    60   Input ~ 0
+D10
+Text GLabel 2300 4800 0    60   Input ~ 0
+D11
+Text GLabel 2300 4700 0    60   Input ~ 0
+D12
+Text GLabel 2300 4600 0    60   Input ~ 0
+D13
+Text GLabel 2300 4500 0    60   Input ~ 0
+GND
+Text GLabel 2300 4400 0    60   Input ~ 0
+AREF
+Text GLabel 1300 7050 2    60   Input ~ 0
+A15
+Text GLabel 1300 6950 2    60   Input ~ 0
+A14
+Text GLabel 1300 6850 2    60   Input ~ 0
+A13
+Text GLabel 1300 6750 2    60   Input ~ 0
+A12
+Text GLabel 1300 6650 2    60   Input ~ 0
+A11
+Text GLabel 1300 6550 2    60   Input ~ 0
+A10
+Text GLabel 1300 6450 2    60   Input ~ 0
+A9
+Text GLabel 1300 6350 2    60   Input ~ 0
+A8
+Text GLabel 1300 6150 2    60   Input ~ 0
+A7
+Text GLabel 1300 6050 2    60   Input ~ 0
+A6
+Text GLabel 1300 5950 2    60   Input ~ 0
+A5
+Text GLabel 1300 5850 2    60   Input ~ 0
+A4
+Text GLabel 1300 5750 2    60   Input ~ 0
+A3
+Text GLabel 1300 5650 2    60   Input ~ 0
+A2
+Text GLabel 1300 5550 2    60   Input ~ 0
+A1
+Text GLabel 1300 5450 2    60   Input ~ 0
+A0
+Text GLabel 1300 5250 2    60   Input ~ 0
+Vin
+Text GLabel 1300 5150 2    60   Input ~ 0
+GND
+Text GLabel 1300 5050 2    60   Input ~ 0
+GND
+Text GLabel 1300 4950 2    60   Input ~ 0
+5V
+Text GLabel 1300 4850 2    60   Input ~ 0
+3V3
+Text GLabel 1300 4750 2    60   Input ~ 0
+RST
+NoConn ~ 1300 5350
+NoConn ~ 1300 6250
+Text GLabel 6900 1600 0    60   Input ~ 0
+D2
+Text GLabel 3050 1200 0    60   Input ~ 0
+GND
+$Comp
+L SN74HC125N IC1
+U 1 1 59090909
+P 8000 2750
+F 0 "IC1" H 8500 2900 50  0000 C CNN
+F 1 "SN74HC125N" H 8500 2000 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm" H 8500 1900 50  0001 C CNN
+F 3 "" H 8500 1800 50  0001 C CNN
+F 4 "QUADRUPLE BUS BUFFER GATES" H 8500 1700 50  0001 C CNN "Description"
+F 5 "Texas Instruments" H 8500 1600 50  0001 C CNN "Manufacturer_Name"
+F 6 "SN74HC125N" H 8500 1500 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "RS" H 8500 1400 50  0001 C CNN "Supplier_Name"
+F 8 "" H 8500 1300 50  0001 C CNN "RS Part Number"
+F 9 "" H 8500 1200 50  0001 C CNN "Height"
+	1    8000 2750
+	1    0    0    -1  
+$EndComp
+Text GLabel 10300 1600 2    60   Input ~ 0
+D3
 Wire Wire Line
-	5850 2500 6150 2500
+	3050 1400 3250 1400
 Wire Wire Line
-	6150 2500 6150 5150
+	3250 1200 3250 1900
+Wire Wire Line
+	3050 1600 3250 1600
+Connection ~ 3250 1600
+Wire Wire Line
+	3050 1800 3250 1800
+Connection ~ 3250 1800
+Wire Wire Line
+	7350 1600 7400 1600
+Wire Wire Line
+	7700 1350 7700 1400
+Wire Wire Line
+	9300 1350 9300 1400
+Connection ~ 9300 1400
+Wire Wire Line
+	5350 3850 5350 3750
+Wire Wire Line
+	5350 3750 5550 3750
+Wire Wire Line
+	5550 3750 5550 3850
+Wire Wire Line
+	6900 1600 7050 1600
+Wire Wire Line
+	3050 1200 3250 1200
+Connection ~ 3250 1400
+Wire Wire Line
+	9600 1600 9700 1600
+Wire Wire Line
+	10000 1600 10300 1600
+Wire Wire Line
+	7000 1600 7000 3050
+Wire Wire Line
+	7000 3050 8000 3050
+Connection ~ 7000 1600
+Wire Wire Line
+	7700 1400 8000 1400
+Wire Wire Line
+	8000 1400 8000 2750
+Connection ~ 7700 1400
+Wire Wire Line
+	9000 3150 10100 3150
+Wire Wire Line
+	10100 3150 10100 1600
+Connection ~ 10100 1600
+Wire Wire Line
+	9300 1400 9100 1400
+Wire Wire Line
+	9100 1400 9100 2850
+Wire Wire Line
+	9100 2850 9000 2850
+Text GLabel 9000 2600 1    60   Input ~ 0
+5V
+Wire Wire Line
+	9000 2750 9000 2600
+$Comp
+L GND #PWR07
+U 1 1 590944AD
+P 8000 3500
+F 0 "#PWR07" H 8000 3250 50  0001 C CNN
+F 1 "GND" H 8000 3350 50  0000 C CNN
+F 2 "" H 8000 3500 50  0000 C CNN
+F 3 "" H 8000 3500 50  0000 C CNN
+	1    8000 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 3350 8000 3500
+Wire Wire Line
+	8000 2950 7650 2950
+Wire Wire Line
+	7650 2950 7650 4250
+Wire Wire Line
+	7650 3150 8000 3150
+Connection ~ 7650 3150
+Wire Wire Line
+	9000 3050 9350 3050
+Wire Wire Line
+	9350 3050 9350 4250
+Wire Wire Line
+	9000 3250 9350 3250
+Connection ~ 9350 3250
+Text GLabel 8000 2850 0    60   Input ~ 0
+TX1
+Text GLabel 8000 3250 0    60   Input ~ 0
+RX1
+Text GLabel 9000 2950 2    60   Input ~ 0
+TX2
+Text GLabel 9000 3350 2    60   Input ~ 0
+RX2
+$Comp
+L GND #PWR08
+U 1 1 5909751A
+P 7300 4250
+F 0 "#PWR08" H 7300 4000 50  0001 C CNN
+F 1 "GND" H 7300 4100 50  0000 C CNN
+F 2 "" H 7300 4250 50  0000 C CNN
+F 3 "" H 7300 4250 50  0000 C CNN
+	1    7300 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 4250 7300 4200
+Wire Wire Line
+	7300 4200 7450 4200
+Wire Wire Line
+	7450 4200 7450 4250
+$Comp
+L GND #PWR09
+U 1 1 590975EF
+P 9700 4250
+F 0 "#PWR09" H 9700 4000 50  0001 C CNN
+F 1 "GND" H 9700 4100 50  0000 C CNN
+F 2 "" H 9700 4250 50  0000 C CNN
+F 3 "" H 9700 4250 50  0000 C CNN
+	1    9700 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 4250 9550 4200
+Wire Wire Line
+	9550 4200 9700 4200
+Wire Wire Line
+	9700 4200 9700 4250
+Text GLabel 5250 3500 1    60   Input ~ 0
+RX3
+Wire Wire Line
+	5250 3850 5250 3500
+Text GLabel 5150 3500 1    60   Input ~ 0
+TX3
+Wire Wire Line
+	5150 3850 5150 3500
+Text GLabel 5350 1350 2    60   Input ~ 0
+A0
+Text GLabel 5350 1550 2    60   Input ~ 0
+A1
+Text GLabel 5350 1950 2    60   Input ~ 0
+A2
+Text GLabel 5350 2150 2    60   Input ~ 0
+A3
+Text Notes 1300 900  2    60   ~ 0
+POWER
+Text Notes 5250 900  2    60   ~ 0
+JOYSTICK
+Text Notes 5000 3300 2    60   ~ 0
+LOG
+Text Notes 6850 900  2    60   ~ 0
+SV
+Wire Notes Line
+	950  800  3400 800 
+Wire Notes Line
+	3400 800  3400 2600
+Wire Notes Line
+	3400 2600 950  2600
+Wire Notes Line
+	950  2600 950  800 
+Wire Notes Line
+	4800 800  4800 2550
+Wire Notes Line
+	4800 2550 5700 2550
+Wire Notes Line
+	5700 2550 5700 800 
+Wire Notes Line
+	5700 800  4800 800 
+Wire Notes Line
+	4800 3200 4800 4300
+Wire Notes Line
+	4800 4300 5750 4300
+Wire Notes Line
+	5750 4300 5750 3200
+Wire Notes Line
+	5750 3200 4800 3200
+Wire Notes Line
+	6700 800  6700 4700
+Wire Notes Line
+	6700 4700 10550 4700
+Wire Notes Line
+	10550 4700 10550 800 
+Wire Notes Line
+	10550 800  6700 800 
+Wire Notes Line
+	900  4150 900  7250
+Wire Notes Line
+	900  7250 2750 7250
+Wire Notes Line
+	2750 7250 2750 4150
+Wire Notes Line
+	2750 4150 900  4150
+Text Notes 1850 4250 2    60   ~ 0
+Arduino MEGA 2560
+Text Notes 7850 7500 2    60   ~ 0
+Servo ctrl.
+Text Notes 10700 7650 2    60   ~ 0
+2.0
+Text Notes 8700 7650 2    60   ~ 0
+2017/05/02
 $EndSCHEMATC
