@@ -75,7 +75,7 @@ SVV11V1
 Text GLabel 1550 1650 0    60   Input ~ 0
 SVVGND
 Text GLabel 1550 2050 0    60   Input ~ 0
-CTRL7V4
+Vin
 Text GLabel 1550 2150 0    60   Input ~ 0
 CTRLGND
 Text GLabel 3050 1400 0    60   Input ~ 0
@@ -164,7 +164,7 @@ U 1 1 59084AE6
 P 7200 1600
 F 0 "R1" V 7280 1600 50  0000 C CNN
 F 1 "R" V 7200 1600 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 7130 1600 50  0001 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7130 1600 50  0001 C CNN
 F 3 "" H 7200 1600 50  0000 C CNN
 	1    7200 1600
 	0    1    1    0   
@@ -197,7 +197,7 @@ U 1 1 59086869
 P 9850 1600
 F 0 "R4" V 9930 1600 50  0000 C CNN
 F 1 "R" V 9850 1600 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 9780 1600 50  0001 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 9780 1600 50  0001 C CNN
 F 3 "" H 9850 1600 50  0000 C CNN
 	1    9850 1600
 	0    -1   -1   0   
@@ -329,7 +329,7 @@ U 1 1 590874EC
 P 2500 4750
 F 0 "P3" H 2500 5200 50  0000 C CNN
 F 1 "DIGITAL_H" V 2600 4750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm" H 2500 4750 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 2500 4750 50  0001 C CNN
 F 3 "" H 2500 4750 50  0000 C CNN
 	1    2500 4750
 	1    0    0    -1  
@@ -589,14 +589,10 @@ Wire Wire Line
 	9550 4200 9700 4200
 Wire Wire Line
 	9700 4200 9700 4250
-Text GLabel 5250 3500 1    60   Input ~ 0
-RX3
-Wire Wire Line
-	5250 3850 5250 3500
 Text GLabel 5150 3500 1    60   Input ~ 0
+RX3
+Text GLabel 5250 3500 1    60   Input ~ 0
 TX3
-Wire Wire Line
-	5150 3850 5150 3500
 Text GLabel 5350 1350 2    60   Input ~ 0
 A0
 Text GLabel 5350 1550 2    60   Input ~ 0
@@ -658,7 +654,11 @@ Arduino MEGA 2560
 Text Notes 7850 7500 2    60   ~ 0
 Servo ctrl.
 Text Notes 10700 7650 2    60   ~ 0
-2.0
+2.1
 Text Notes 8700 7650 2    60   ~ 0
 2017/05/02
+Wire Wire Line
+	5150 3850 5150 3500
+Wire Wire Line
+	5250 3850 5250 3500
 $EndSCHEMATC
