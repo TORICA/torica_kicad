@@ -377,16 +377,6 @@ Wire Wire Line
 Connection ~ 7150 4450
 Wire Wire Line
 	5450 1350 5450 4650
-Wire Wire Line
-	7150 4450 7550 4450
-Wire Wire Line
-	7550 4450 7550 3100
-Wire Wire Line
-	6350 4650 6350 3700
-Wire Wire Line
-	6350 3700 7250 3700
-Wire Wire Line
-	7250 3700 7250 3100
 Connection ~ 6350 4650
 Text GLabel 7150 4100 1    60   Input ~ 0
 5V
@@ -546,12 +536,12 @@ F 9 "7" H 1750 800 50  0001 C CNN "Height"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 P?
+L CONN_01X03 P1
 U 1 1 5909467D
 P 6250 5350
-F 0 "P?" H 6250 5550 50  0000 C CNN
+F 0 "P1" H 6250 5550 50  0000 C CNN
 F 1 "CONN_01X03" V 6350 5350 50  0000 C CNN
-F 2 "" H 6250 5350 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch1.27mm" H 6250 5350 50  0001 C CNN
 F 3 "" H 6250 5350 50  0000 C CNN
 	1    6250 5350
 	0    1    1    0   
@@ -560,4 +550,14 @@ Wire Wire Line
 	5850 2500 6150 2500
 Wire Wire Line
 	6150 2500 6150 5150
+Wire Wire Line
+	7250 3100 7250 4450
+Wire Wire Line
+	7250 4450 7150 4450
+Wire Wire Line
+	6350 4650 6350 3750
+Wire Wire Line
+	6350 3750 7550 3750
+Wire Wire Line
+	7550 3750 7550 3100
 $EndSCHEMATC
