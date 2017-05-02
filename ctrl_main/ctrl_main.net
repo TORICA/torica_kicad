@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\torica\git\torica_kicad\ctrl_main\ctrl_main.sch)
-    (date "2017/05/02 21:37:23")
+    (date "2017/05/02 22:02:51")
     (tool "Eeschema 4.0.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -47,7 +47,7 @@
       (tstamp 59083F31))
     (comp (ref R1)
       (value R)
-      (footprint Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical)
+      (footprint Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 59084AE6))
@@ -65,7 +65,7 @@
       (tstamp 59086863))
     (comp (ref R4)
       (value R)
-      (footprint Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical)
+      (footprint Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 59086869))
